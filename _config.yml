@@ -70,4 +70,4 @@ theme: jekyll-theme-slate
 deploy:
   type: git
   repo: https://github.com/faver0099/faver0099.github.io.git
-  branch: v1.0
+  branch: master
