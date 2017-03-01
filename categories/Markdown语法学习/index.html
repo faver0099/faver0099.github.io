@@ -1,10 +1,10 @@
 
- <!DOCTYPE HTML>
+  <!DOCTYPE HTML>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   
-    <title>tags | 秋~博客</title>
+    <title>分类 : Markdown语法学习 | 秋~博客</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="范秋宁">
@@ -12,12 +12,11 @@
 
     
     <meta property="og:type" content="website">
-<meta property="og:title" content="tags">
-<meta property="og:url" content="http://yoursite.com/tags/index.html">
+<meta property="og:title" content="秋~博客">
+<meta property="og:url" content="http://yoursite.com/categories/Markdown语法学习/index.html">
 <meta property="og:site_name" content="秋~博客">
-<meta property="og:updated_time" content="2017-03-01T08:15:11.389Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="tags">
+<meta name="twitter:title" content="秋~博客">
 
     
     <link rel="alternative" href="/atom.xml" title="秋~博客" type="application/atom+xml">
@@ -71,21 +70,31 @@
 </div>
       </header>
       <div id="container">
-          
+        
+
 <div class="archive-title" >
-<h2 class="tag-icon">标签</h2>
-
-<a data-src="/tags/技术/" href="#技术" title="技术">技术<sup>3</sup></a>
-
-<a data-src="/tags/记录/" href="#记录" title="记录">记录<sup>3</sup></a>
-
+  <h2 class="category-icon">Markdown语法学习</h2>
+  
 </div>
-<div id="main" class="archive-part">
-<div class="all-list-box"></div>
+<div id="main" class="archive-part clearfix">
+  <div id="archive-page">
+
+  <section class="post" itemscope itemprop="blogPost">
+  
+    <a href="/2017/03/01/Markdown语法学习/" title="Markdown语法学习" itemprop="url">
+  
+
+    <time datetime="2017-03-01T09:21:09.000Z" itemprop="datePublished">2017-03-01</time>
+
+
+    <h1 itemprop="name">Markdown语法学习</h1>
+
+  </a>
+</section>
+
+
+  </div>
 </div>
-
-
-
 
       </div>
       <footer><div id="footer" >
@@ -178,60 +187,10 @@ $(document).ready(function(){
 
 
 
-<script type="text/javascript">
-  var duoshuoQuery = {short_name:"true"};
-  (function() {
-    var ds = document.createElement('script');
-    ds.type = 'text/javascript';ds.async = true;
-    ds.src = '//static.duoshuo.com/embed.js';
-    ds.charset = 'UTF-8';
-    (document.getElementsByTagName('head')[0] 
-    || document.getElementsByTagName('body')[0]).appendChild(ds);
-  })();
-</script> 
-
-
-<script type="text/javascript">
-
-var disqus_shortname = 'true';
-
-(function(){
-  var dsq = document.createElement('script');
-  dsq.type = 'text/javascript';
-  dsq.async = true;
-  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-}());
-(function(){
-  var dsq = document.createElement('script');
-  dsq.type = 'text/javascript';
-  dsq.async = true;
-  dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
-  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-}());
-</script>
 
 
 
 
-
-<script type="text/javascript">
-$(document).ready(function(){ 
-  var list    = $('.archive-title a'),
-      box     = $('.all-list-box'),
-      first   = $('.archive-title a:first-of-type');
-      box.load(first.attr('data-src').toString()+' #archive-page');
-      first.addClass('current');
-  list.each(function(){
-    $(this).click(function(){
-      var listSrc=$(this).attr('data-src').toString()+' #archive-page';
-      box.load(listSrc);
-      list.removeClass('current');
-      $(this).addClass('current');
-     });  
-    });
-  }); 
-</script>
 
 
 <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
