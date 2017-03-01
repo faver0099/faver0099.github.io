@@ -69,5 +69,5 @@ theme: jekyll-theme-slate
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/faver0099/faver0099.github.io.git
+  repo: git@github.com:faver0099/faver0099.github.io.git
   branch: master
