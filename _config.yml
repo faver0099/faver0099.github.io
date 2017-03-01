@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 秋~Blog
 subtitle:
 description:
-author: John Doe
-language:
+author: 范秋宁
+language: zh-CN
 timezone:
 
 # URL
@@ -68,6 +68,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:git
-  repo:https://github.com/faver0099/faver0099.github.io.git
-  branch:master
+  type: git
+  repo: https://github.com/faver0099/faver0099.github.io.git
+  branch: v1.0
